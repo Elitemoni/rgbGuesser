@@ -1,0 +1,68 @@
+* {
+   margin: 0;
+}
+
+html {
+   font-family:'Baumans';
+   font-size: 22px;
+}
+
+body {
+   /* background-color: rgb(0, 0, 0); */
+   background-color: hsl(0, 50%, 50%);
+}
+
+.center {
+   display: block;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+#menu {
+   opacity: 0;
+}
+
+#instructions {
+   background-color: white;
+   border-radius: 10px;
+}
+
+.instructionsText {
+   text-align: center;
+   font-family:'Baumans';
+   font-size: 22px;
+}
+
+.rgb {
+   font-family:'Baumans';
+   font-size: 22px;
+}
+
+#enter {
+   width: 100%;
+   font-family:'Baumans';
+   font-size: 22px;
+}
+
+#start {
+   display: inline-block;
+   background-color: white;
+   border-radius: 100%;
+   width:  400px;
+   height: 400px;
+   opacity: 20%;
+   transition: opacity 1s;
+}
+
+.button {
+   color: black;
+   background-color: white;
+   text-align: center;
+   /* center text vertically */
+}
+
+#start:hover {
+   opacity: 100%;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>RGB Guesser</title>
+</head>
+<body>
+   <div class="center">
+      <div class="button" onclick="start()" type="button" id="start">Start</div>
+      <div id="menu">
+         <div id='instructions'>
+            <div class="instructionsText">Guess the color!</div>
+            <div class="instructionsText">Enter an RGB</div>
+         </div>
+         <div id='inputs'>
+            <input type="number" placeholder="R" class='rgb' min="0" max="255" id="red">
+            <input type="number" placeholder="G" class='rgb' min="0" max="255" id="green">
+            <input type="number" placeholder="B" class='rgb' min="0" max="255" id="blue">
+         </div>
+         <div class="button" onclick="enter()" type="button" id="enter">Enter</div>
+      </div>
+   </div>
+   
+   <link href='https://fonts.googleapis.com/css?family=Baumans' rel='stylesheet'>
+   <link rel=stylesheet href="style.css"> 
+   <script src='rgbGuesser.js'></script>
+</body>
+</html>
